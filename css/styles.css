@@ -1,0 +1,145 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: orangered;
+    font-family: 'Fredoka', sans-serif;
+    text-shadow: 1px 1px 1px black;
+}
+
+/**********DISPLAY NONE SUR LES PAGES DE LA CO SQL***************/
+.connexionPDOMYSQL{
+    display: none;
+}
+/*******************************CONTAINER FLUID***********************************/
+.container-fluid{
+    width: 90%;
+}
+
+
+/*************************** CONNEXION ******************************/
+#h2-connexion{
+    font-size: 50px;
+}
+
+
+.form-connexion{
+    background-color: rgb(49, 49, 104);
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+#inputMailConnexion{
+    width: 30%;
+    box-shadow: 1px 1px 1px black;
+}
+#inputPasswordConnexion{
+    width: 30%;
+    box-shadow: 1px 1px 1px black;
+}
+.btn-de-connexion{
+    box-shadow: 1px 1px 1px black;
+}
+.btn-de-connexion:hover{
+    transform: scale(1.1);
+    color: orangered;
+}
+
+
+.alertConnexion{
+    font-size: 20px;
+    color: red;
+    animation: clignote 2s linear infinite;
+}
+@keyframes clignote {  
+  50% { opacity: 0; }
+}
+
+
+/********************NAV BAR*******************/
+.navbar{
+    background-color: rgb(49, 49, 104) ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.nav-link{
+    font-size: 20px;
+}
+.navbar a{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+.navbar a:hover{
+    border: 2px solid orangered;
+}
+.logoAccueil a:hover{
+    border: none;
+}
+.btn-search{
+    color: orangered;
+    background-color: rgb(49, 49, 104);
+    border: 1px solid orangered;
+}
+.btn-deconnexion-accueil{
+    color: orangered;
+    background-color: rgb(49, 49, 104);
+    border: 1px solid orangered;
+    border-radius: 30px;
+}
+
+
+
+/******************* CONTENU GLOBAL********************/
+h1{
+    font-size: 80px;
+}
+.h2-peluches{
+    font-size: 50px;
+    padding-left: 10%;
+}
+
+
+
+/******************* PELUCHES ********************/
+.cardPeluches{
+    box-shadow: 5px 5px 10px black;
+    height: 100%;
+}
+
+
+/******************* CONSOLES ********************/
+.h4-consoles{
+    font-size: 20px;
+}
+.cardHeaderConsoles{
+    background-color: rgb(49, 49, 104);
+}
+.cardFooterConsoles{
+    background-color: rgb(49, 49, 104);
+}
+.cardConsoles{
+    box-shadow: 5px 5px 10px black;
+}
+
+
+.h2DetailsProduits{
+    font-size: 50px;
+    color: rgb(49, 49, 104);
+}
+
+.containerConsolesDetails{
+    background-color: rgb(49, 49, 104);
+}
+
+
+
+
+/******************* JEUX DE SOCIETE ********************/
+
+
