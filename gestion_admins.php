@@ -89,6 +89,13 @@ try{
 ?>
 
 <div class="container">
+
+    <div class="mt-5 w-25 m-auto bg-warning text-center rounded p-3">
+        <form action="ajouter_admins" method="POST">
+            <button type="submit" name="btn-inscription" class="btn-deconnexion-accueil p-2">AJOUTER ADMINS</button>
+        </form>
+    </div>
+
     <table class="table table-striped text-white mt-5 bg-success rounded">
         <thead>
         <tr>

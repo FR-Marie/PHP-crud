@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a7908ea-b160-4ea6-bda7-88af354a3494" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/accueil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajouter_produit.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajouter_produit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editer_produit_peluches.php" beforeDir="false" afterPath="$PROJECT_DIR$/editer_produit_peluches.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion_admins.php" beforeDir="false" afterPath="$PROJECT_DIR$/gestion_admins.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/traitement_ajouter_produit.php" beforeDir="false" afterPath="$PROJECT_DIR$/traitement_ajouter_produit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/traitement_editer_produit.php" beforeDir="false" afterPath="$PROJECT_DIR$/traitement_editer_produit.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1647338243289</updated>
       <workItem from="1647338244745" duration="84000" />
-      <workItem from="1647415858842" duration="641000" />
+      <workItem from="1647415858842" duration="9315000" />
     </task>
     <servers />
   </component>

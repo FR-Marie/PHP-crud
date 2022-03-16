@@ -42,11 +42,7 @@
         </form>
     </div>
 
-    <div class="bg-warning ms-3">
-        <form action="ajouter_admins" method="POST">
-            <button type="submit" name="btn-inscription" class="btn-deconnexion-accueil">AJOUTER ADMINS</button>
-        </form>
-    </div>
+
 
 
 
