@@ -174,7 +174,7 @@ $statment_jeuxDeSociete = $dbh->query($table3);
 
                                 <!---------BTN EDITER PRODUIT-------->
                                 <div>
-                                    <a href="editer_produit_peluches.php" class="btn btn-warning mt-2">Editer produit</a>
+                                    <a href="editer_produit_peluches.php?id_produit_editer=<?=$produits_peluches["id_produit"]?>" class="btn btn-warning mt-2">Editer produit</a>
                                 </div>
                         </div>
                 </div>

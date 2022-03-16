@@ -14,9 +14,7 @@
         <div class="nav-link">
         <a href="#"><i class="fa-solid fa-envelope px-1"></i>CONTACT</a>
         </div>
-        <div class="nav-link">
-        <a href="#"><i class="fa-solid fa-gears px-1"></i>PARAMETRES</a>
-        </div>
+        
     </div>
 
     <form class="rechercher d-flex m-auto">
@@ -29,7 +27,7 @@
         <a href="#"><i class="fa-solid fa-user px-1"></i>PROFIL</a>
         </div>
         <div class="nav-link">
-        <a href="#"><i class="fa-solid fa-basket-shopping px-1"></i>PANIER</a>
+        <a href="gestion_admins.php"><i class="fa-solid fa-basket-shopping px-1"></i>ADMINS</a>
         </div>
     </div>
 
@@ -40,7 +38,13 @@
     
     <div class="nav-responsive bg-danger">
         <form action="" method="POST">
-        <button type="submit" name="btn-deconnexion" class="btn-deconnexion-accueil">DECONNEXION</button>
+            <button type="submit" name="btn-deconnexion" class="btn-deconnexion-accueil">DECONNEXION</button>
+        </form>
+    </div>
+
+    <div class="bg-warning ms-3">
+        <form action="ajouter_admins" method="POST">
+            <button type="submit" name="btn-inscription" class="btn-deconnexion-accueil">AJOUTER ADMINS</button>
         </form>
     </div>
 

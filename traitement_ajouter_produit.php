@@ -121,7 +121,7 @@ if(isset($_FILES["image_produit"])){
         $description_du_produit = trim(htmlspecialchars($_POST["description_produit"]));
         $prix_du_produit = trim(htmlspecialchars($_POST["prix_produit"]));
         $stock_du_produit = trim(htmlspecialchars($_POST["stock_produit"]));
-        $date_du_produit = trim(htmlspecialchars($_POST["date_produit"]));
+        $date_du_produit = trim(htmlspecialchars($_POST["date_depot"]));
         $image_du_produit = trim(htmlspecialchars($_POST["image_produit"]));
 
         
@@ -136,7 +136,7 @@ if(isset($_FILES["image_produit"])){
         $requeteAjout->bindParam(5, $_POST["description_produit"]);
         $requeteAjout->bindParam(6, $_POST["prix_produit"]);
         $requeteAjout->bindParam(7, $_POST["stock_produit"]);
-        $requeteAjout->bindParam(8, $_POST["date_produit"]);
+        $requeteAjout->bindParam(8, $_POST["date_depot"]);
         $requeteAjout->bindParam(9, $_POST["image_produit"]);
 
         //J'éxécute la requête
@@ -148,7 +148,7 @@ if(isset($_FILES["image_produit"])){
             trim(htmlspecialchars($_POST["description_produit"])),
             trim(htmlspecialchars($_POST["prix_produit"])),
             trim(htmlspecialchars($_POST["stock_produit"])),
-            trim(htmlspecialchars($_POST["date_produit"])),
+            trim(htmlspecialchars($_POST["date_depot"])),
             trim(htmlspecialchars($_POST["image_produit"]))
         ]);
 
@@ -172,9 +172,12 @@ if(isset($_FILES["image_produit"])){
                 </div>
             <?php
             }
+        }else{
+            echo "merci de remplir tous les champs";
         }
+    }
 
-        }
+        
         
 
 
